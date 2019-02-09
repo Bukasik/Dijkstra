@@ -1,5 +1,7 @@
 # Dijkstra algorithm
 
+[![Build Status](https://travis-ci.org/Bukasik/project-lvl1-s368.svg?branch=master)](https://travis-ci.org/Bukasik/project-lvl1-s368)
+
 # Install
 
 -npm install dijkstra_my_algorithm
