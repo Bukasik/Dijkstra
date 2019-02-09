@@ -7,7 +7,7 @@ const readContent = (filePath) => {
   return JSON.parse(data);
 };
 
-const printShortPath = (graph, start, finish) =>{
+const printShortPath = (graph, start, finish) => {
   const [shortestPath, distancesPath] = graph.shortestPath(start, finish);
   return `The shortest way from point ${start} to point ${finish} - ${shortestPath.concat([start]).reverse()} is full weight of the ${distancesPath}.`;
 };
@@ -20,7 +20,7 @@ const shortPath = (filePath) => {
   const startVertex = readlineSync.question('Initial vertex ');
   const finishVertex = readlineSync.question('Ultimate vertex ');
 
-  const commonKeys =Object.keys(content);;
+  const commonKeys = Object.keys(content);
   let g;
   g = new Graph();
   commonKeys.map((key) => {

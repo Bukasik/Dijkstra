@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import PriorityQueue from './priority-queue';
-import fs from 'fs';
 
 class Graph {
   constructor() {
@@ -66,7 +65,7 @@ class Graph {
     return [path, distances[finish]];
   }
 
-}
+};
 
 
 export default Graph;

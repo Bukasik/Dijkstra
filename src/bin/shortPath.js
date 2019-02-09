@@ -11,4 +11,4 @@ program
   .action((filePath) => {
     console.log(shortPath(filePath));
   })
-.parse(process.argv);
+  .parse(process.argv);
